@@ -1,0 +1,660 @@
+/*
+ *	Theme Name : 
+ *	Theme Author #Coder : @Oubihis
+ *  Designer :
+ *	Framework :Bootstrap 4
+ *	CMS : 
+ *	FirstColor: 
+ *	SecondColor:
+ *	FontColor:  	
+ * 	Version - 1.0.0
+ * 	Licensed under the MIT license - 
+ * 	Copyright (c) 2018 @oubihis
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+
+
+/**
+ * body 
+ */
+
+body {
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6471;
+}
+
+
+/**
+ * Fonts
+ */
+
+
+
+ @font-face {
+    font-family: Gentium Book Basic Bold;
+    src: url('../fonts/GenBkBasB.ttf');
+}
+
+  @font-face {
+    font-family: Yeseva One Regular;
+    src: url('../fonts/YesevaOneRegularv2.otf');
+}
+
+  @font-face {
+    font-family: Lato Regular;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+
+
+@font-face {
+    font-family: georgia;
+    src:url ('../fonts/georgia.ttf');
+}
+/**
+ * Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red; 
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.2308;
+    font-family: Yeseva One Regular;
+}
+
+h2 {
+    font-size: 29px;
+    line-height: 1.2069;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.1667;
+    font-family: Yeseva One Regular;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: Yeseva One Regular;
+}
+
+h5,
+h6 {
+    font-size: 17px;
+    line-height: 1.2353;
+}
+
+
+p {
+    font-family: Lato Regular;
+    
+}
+
+.Open-Sans-Regular {
+    font-family: Open Sans Regular;
+}
+
+b,
+strong {
+    font-weight: 700;
+} 
+
+li {
+    font-family: Gentium Book Basic Bold;
+}
+
+blockquote {
+    font-family: Gentium Book Basic Bold;
+}
+
+a,a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato Regular;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+/****/
+.logo {
+    width: 125px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.color-social {
+    color:#dab33e;
+}
+
+
+.active_state {
+    border-top: 2px solid #ffff;
+}
+
+
+.margin-and-padding-0 {
+    margin:0;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 1.85rem 1rem;
+}
+
+
+
+
+.header  {
+    background-image: url('../img/Bg.jpg');
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  height: 500px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+    font-family: Gentium Book Basic Bold;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    font-size: 15px;
+    font-family: Gentium Book Basic Bold;
+}
+
+
+.mt-min-2 {
+    margin-top: 2.9px;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #fffdfca6;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.39);
+    border-color: rgb(251, 251, 251);
+}
+
+
+.title-of-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1-title {
+    
+    position: absolute;
+    text-align: center;
+}
+
+.title h1 {
+    color: #fff;
+}
+
+.mt-14 {
+        margin-top: 18rem!important;
+}
+
+
+.Decoration img {
+    width: 150px;
+}
+
+
+
+
+.bu {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0.2px solid #ffffff91;
+    padding: 0.7rem 1.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.bu:hover {
+    background-color: #00000059;
+    border: 0.2px solid #ffffff00;
+    font-weight: 600;
+}
+
+.button-table {
+margin-right:1.5em;
+
+}
+
+
+.button-menu {
+margin-right:1.5em;
+
+}
+
+
+.about .pattern  {
+    background-image: url('../img/pattern.jpg');
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+
+.mt-6 {
+    margin-top: 5rem!important;
+}
+
+.mb-6{
+    margin-bottom: 5rem!important;
+}
+
+
+.about-heading p {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato Regular;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.about-heading h3 {
+    font-size: 30px;
+    color:#cc9900 ;
+}
+
+.dish {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.ingredients .ingredients-bg {
+    background-image: url('../img/ingredients-bg.jpg');
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+
+.card-over {
+    border-radius: 6px;
+    border: 1px solid #00000017;
+    padding: 80px 50px 35px 50px;
+    background-color: #0000008c;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.card-over h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.card-over p {
+    font-family: Lato Regular;
+}
+
+
+.ingredients-img .border {
+    border: 3px solid #dee2e633!important
+}
+
+
+.navbar-transparent {
+    background-color: #0000000d !important;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+   
+}
+
+
+.menu .pattern-menu  {
+    background-image: url(../img/pattern-menu.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: rgba(218, 223, 223, 0.17);
+}
+
+
+
+.my-menu p {
+    color: #4c4c4c;
+    font-family: Lato Regular;
+    font-size: 14px;
+}
+
+
+
+.menu-item {
+    color: #c89f2d;
+    font-family: Yeseva One Regular;
+    font-weight: 600;
+}
+
+.my-menu .border-bottom {
+       border: 0.5px solid #c89f2d36!important;
+
+}
+
+
+
+.reviews .reviews-bg {
+    background-image: url('../img/reviews-bg.jpg');
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+
+.my-reviews {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-over-reviews {
+    border-radius: 6px;
+    border: 1px solid #00000017;
+    padding: 24px 24px 24px 24px;
+    background-color: #000000ba;
+    text-align: center;
+    color: #fff;
+}
+
+
+.card-over-reviews h3 {
+ color: #fff
+}
+
+
+.quote-icon {
+    display: flex;
+}
+
+
+.our-icon-quote {
+    position: absolute;
+}
+
+
+.quote p {
+    color: #dde0df;
+    font-family: georgia;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.quote-source small {
+    color: #dde0df;
+    font-family: georgia;
+}
+
+
+.menu-res {
+    text-align-last: left;
+}
+
+
+.bu-res {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0.2px solid #cc9900;
+    padding: 0.7rem 1.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #cc9900;
+}
+
+.button-res {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+
+}
+
+
+.color-def {
+color: #cc9900;
+}
+
+
+.color-def-cls:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #cc9900;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(204, 153, 0, 0.3);
+}
+
+
+
+.our-footer {
+
+    background-color: #191919;
+} 
+
+/* date */
+
+.datepicker.datepicker-primary {
+     background-color: #cc9900;
+}
+
+.dropdown-menu.open {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0px, 0);
+    -moz-transform: translate3d(0, 0px, 0);
+    -o-transform: translate3d(0, 0px, 0);
+    -ms-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+}
+
+.dropdown-menu {
+    border: 0;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.125rem;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    font-size: 14px;
+}
+.open {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+.datepicker-dropdown {
+    top: 0;
+    left: 0;
+}
+.datepicker {
+    padding: 8px 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    direction: ltr;
+    -webkit-transform: translate3d(0, -40px, 0);
+    -moz-transform: translate3d(0, -40px, 0);
+    -o-transform: translate3d(0, -40px, 0);
+    -ms-transform: translate3d(0, -40px, 0);
+    transform: translate3d(0, -40px, 0);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s, height 0s linear 0.35s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    display: block;
+    width: 254px;
+    max-width: 254px;
+}
+
+
+.datepicker table {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 241px;
+    max-width: 241px;
+}
+
+.datepicker.datepicker-primary th, .datepicker.datepicker-primary .day div, .datepicker.datepicker-primary table tr td span {
+    color: #FFFFFF;
+}
+
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.datepicker th {
+    color: #cc9900;
+}
+
+.datepicker .day div, .datepicker th {
+    -webkit-transition: all 300ms ease 0s;
+    -moz-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    -ms-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 2.2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 13px;
+    border: none;
+    z-index: -1;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.datepicker.datepicker-primary th, .datepicker.datepicker-primary .day div, .datepicker.datepicker-primary table tr td span {
+    color: #FFFFFF;
+}
+.datepicker .prev, .datepicker .next {
+    width: 35px;
+    height: 35px;
+}
+.datepicker .datepicker-switch, .datepicker .prev, .datepicker .next, .datepicker tfoot tr th {
+    cursor: pointer;
+}
+
+.datepicker .prev i {
+    left: -1px;
+}
+.datepicker i {
+    position: relative;
+    top: 2px;
+}
+.now-ui-icons {
+    display: inline-block;
+    font: normal normal normal 13px/1 'Nucleo Outline';
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.datepicker .next i {
+    right: -1px;
+}
+
+
+.datepicker.datepicker-primary table tr td.day:hover div, .datepicker.datepicker-primary table tr td.day.focused div {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+.datepicker.datepicker-primary table tr td.active:hover div, .datepicker.datepicker-primary table tr td.active:hover:hover div, .datepicker.datepicker-primary table tr td.active:active div, .datepicker.datepicker-primary table tr td.active:hover:active div, .datepicker.datepicker-primary table tr td.active.active div, .datepicker.datepicker-primary table tr td.active:hover.active div {
+    background-color: #FFFFFF;
+}
+
+
+.datepicker.datepicker-primary table tr td.active div, .datepicker.datepicker-primary table tr td.active:hover div {
+    color: #cc9900;
+}
+

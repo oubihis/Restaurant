@@ -1,0 +1,206 @@
+/* responsive 
+
+		
+
+
+*/
+
+@media (max-width: 991px) {
+	.active_state {
+	    border-top: none;
+	}
+}
+
+
+
+@media (max-width: 991px) {
+.mr-4, .mx-4 {
+    margin-right: 0rem!important; 
+}
+
+}
+
+
+@media (max-width: 991px) {
+	.nav-link {
+	    display: block;
+	    padding: 0.5rem 1rem;
+	}
+}
+
+@media (max-width: 991px) {
+
+ul, ul:hover { 
+	text-align: center; 
+	background-color: #4e3d29cc;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%
+
+} }
+
+@media (max-width: 991px) {
+li:hover {
+	text-align: center; 
+	background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%
+
+}
+}
+
+
+@media (max-width: 991px) {
+li:hover {
+    background-color: rgba(0,0,0,.5);
+    width: 100%
+    }
+
+ }
+
+
+@media (max-width: 991px) {
+.social-media li{
+
+    display: inline;
+
+}
+	
+ }
+
+
+@media (max-width: 991px) {
+.title h1{
+    font-size: 2.5em
+}
+	
+ }
+
+
+@media (max-width: 891px) {
+.title h1 {
+    font-size: 2em;
+}
+}
+
+@media (max-width: 600px) {
+.title h1 {
+    font-size: 1.5em;
+}
+}
+
+
+
+@media (max-width: 489px) {
+	.button-table {
+		margin-right:0em;
+
+	}
+}
+
+
+
+@media (max-width: 489px) {
+	.button-menu {
+		margin-right:0em;
+
+	}
+}
+
+
+@media (max-width: 690px) {
+
+.about .mb-6{
+		
+	margin-bottom: 1rem!important;
+
+
+	}
+}
+
+@media (max-width: 690px) {
+
+.about .mt-6{
+		
+	margin-top: 0rem!important;
+
+
+	}
+}
+
+@media (max-width: 690px) {
+
+.about-heading h3 {
+		
+
+    margin-top: 1.5rem!important;
+
+
+	}
+}
+
+
+
+@media (max-width: 690px) {
+
+.navbar-collapse, .navbar-brand {
+
+    margin-right: 0.8rem!important;
+    margin-left: 0.8rem!important;
+
+	}
+}
+
+@media (max-width: 991px) {
+
+.responsive-ingredients, .mt-6 {
+	margin-top: 0rem!important;
+	margin-bottom: 2rem!important;
+}
+
+}
+
+
+@media (max-width: 550px) {
+
+.ingredients-img .border {
+    border: 3px solid #dee2e633!important;
+    width: 74px;
+} }
+
+
+@media (max-width: 400px) {
+.card-over p {
+    font-family: Lato Regular;
+    width: 100%;
+    font-size: 0.6em;
+}}
+
+
+@media (max-width: 400px) {
+.card-over {
+    border-radius: 6px;
+    border: 1px solid #00000017;
+    padding: 80px 14px 61px 11px;
+    background-color: #0000008c;
+    text-align: center;
+    color: #fff;
+}}
+
+@media (max-width: 400px) {
+.card-over h3 {
+    font-size: 22px;
+    color: #fff;
+}}
+
+
+
+@media (max-width: 991px) {
+
+.responsive-reviews {
+	margin-top: 2rem!important;
+	margin-bottom: 2rem!important;
+}
+
+}
